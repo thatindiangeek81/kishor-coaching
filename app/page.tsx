@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { BranchesSection } from "./BranchesSection";
+import BranchesSection from "./BranchesSection";
 
 export default function Home() {
   const [scrolled, setScrolled] = useState<boolean>(false);
